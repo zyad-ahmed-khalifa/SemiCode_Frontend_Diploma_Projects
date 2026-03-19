@@ -76,7 +76,7 @@ $.ajax({
             obj.languages.forEach((lang) => {
                 langs += `<span class="py-1 px-2 rounded me-1">${lang}</span>`
             })
-            exercises.get(0).innerHTML +=`
+            exercises.get(0).innerHTML += `
                     <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
                         <div class="card p-2 rounded-3 border-0 mb-2">
                             <img src="${obj.image}" class="card-img-top rounded-3" alt="...">
