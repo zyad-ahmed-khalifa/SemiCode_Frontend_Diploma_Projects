@@ -1,0 +1,132 @@
+[
+    {
+        "name":"Burger",
+        "image":"./img/burger.png",
+        "path":"./data/burger_assets.zip",
+        "fileName":"burger_assets",
+        "link":"https://semicode.tech/course/project_01/burger",
+        "languages":["html", "css"],
+        "type": "pProject",
+        "miniCycle": "true"
+    },
+    {
+        "name":"Fokir",
+        "image":"./img/fokir.png",
+        "path":"./data/fokir_assets.zip",
+        "fileName":"fokir_assets",
+        "link":"https://semicode.tech/course/project_02/fokir",
+        "languages":["html", "css"],
+        "type": "pProject",
+        "miniCycle": "false"
+    },
+    {
+        "name":"Kaffa",
+        "image":"./img/kaffa.png",
+        "path":"./data/kaffa_assets.zip",
+        "fileName":"kaffa_assets",
+        "link":"https://semicode.tech/course/project_03/kaffa",
+        "languages":["html", "css", "bootstrap"],
+        "type": "pProject",
+        "miniCycle": "false"
+    },
+    {
+        "name":"Nike",
+        "image":"./img/nike.png",
+        "path":"./data/nike_assets.zip",
+        "fileName":"nike_assets",
+        "link":"https://semicode.tech/course/project_05/nike",
+        "languages":["html", "css", "bootstrap", "js"],
+        "type": "pProject",
+        "miniCycle": "true"
+    },
+    {
+        "name":"L10House",
+        "image":"./img/L10House.png",
+        "path":"./data/L10House_assets.zip",
+        "fileName":"L10House_assets",
+        "link":"https://semicode.tech/course/project_06/l10nhouse",
+        "languages":["html", "css", "bootstrap", "js", "API"],
+        "type": "pProject",
+        "miniCycle": "false"
+    },
+    {
+        "name":"Dropping egg game",
+        "image":"./img/game.png",
+        "path":"./data/droppingEggGame_assets.zip",
+        "fileName":"droppingEggGame_assets",
+        "link":"https://semicode.tech/course/project_07/drop_egg_game",
+        "languages":["html", "css", "js"],
+        "type": "pProject",
+        "miniCycle": "false"
+    },
+    {
+        "name":"Gym",
+        "image":"./img/gym.png",
+        "path":"./data/gym_assets.zip",
+        "fileName":"gym_assets",
+        "link":"https://semicode.tech/project_01/plus-gym",
+        "languages":["html", "css"],
+        "type": "sProject",
+        "miniCycle": "true"
+    },
+    {
+        "name":"DineOut",
+        "image":"./img/dineOut.png",
+        "path":"./data/dineOut_assets.zip",
+        "fileName":"dineOut_assets",
+        "link":"https://semicode.tech/course/project_04/dine-out",
+        "languages":["html", "css", "bootstrap"],
+        "type": "sProject",
+        "miniCycle": "false"
+    },
+    {
+        "name":"Exercise 1",
+        "image":"./img/exercise1.png",
+        "path":"./data/exercise1_assets.zip",
+        "fileName":"exercise1_assets",
+        "link":"https://semicode.tech/exercises/exercise_01",
+        "languages":["html"],
+        "type": "exercise",
+        "miniCycle": "false"
+    },
+    {
+        "name":"Exercise 2",
+        "image":"./img/exercise2.png",
+        "path":"./data/exercise2_assets.zip",
+        "fileName":"exercise2_assets",
+        "link":"https://semicode.tech/exercises/exercise_02",
+        "languages":["html", "css"],
+        "type": "exercise",
+        "miniCycle": "false"
+    },
+    {
+        "name":"Exercise 3",
+        "image":"./img/exercise3.png",
+        "path":"./data/exercise3_assets.zip",
+        "fileName":"exercise3_assets",
+        "link":"https://semicode.tech/exercises/exercise_03",
+        "languages":["html", "css"],
+        "type": "exercise",
+        "miniCycle": "false"
+    },
+    {
+        "name":"Gallery slider",
+        "image":"./img/gallerySlider.png",
+        "path":"./data/gallerySlider_assets.zip",
+        "fileName":"gallerySlider_assets",
+        "link":"https://semicode.tech/exercises/exercise_04",
+        "languages":["html", "css", "bootstrap", "js"],
+        "type": "exercise",
+        "miniCycle": "false"
+    },
+    {
+        "name":"Student from",
+        "image":"./img/form.png",
+        "path":"./data/studentForm_assets.zip",
+        "fileName":"studentForm_assets",
+        "link":"https://semicode.tech/exercises/exercise_05",
+        "languages":["html", "css", "bootstrap", "js", "Regex"],
+        "type": "exercise",
+        "miniCycle": "false"
+    }
+]

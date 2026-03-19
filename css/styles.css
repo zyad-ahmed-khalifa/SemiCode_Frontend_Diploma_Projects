@@ -1,0 +1,89 @@
+:root {
+    --main-color: #302b63;
+    --bg-color: #a6a1bd;
+    --button-color: #e5e3ec;
+    --accent-color: #b3aec6;
+    /* --main-color: #000000;
+    --bg-color: #f2f2f2;
+    --button-color: #eaeaea;
+    --accent-color: #b0b0b0; */
+}
+
+@font-face {
+    font-family: "Agency";
+    src: url("../fonts/agencyfb_reg.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Agency";
+    src: url("../fonts/agencyfb_bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background: url(../img/noise-bg.avif) var(--bg-color);
+}
+
+nav .container .logo img {
+    width: 250px;
+}
+
+nav .container .logo h1 {
+    font-family: "Agency";
+    font-weight: bolder;
+    color: var(--main-color);
+}
+
+ul#pills-tab {
+    width: fit-content;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 1px inset;
+}
+
+ul#pills-tab li button {
+    color: var(--main-color);
+}
+
+ul#pills-tab li button.active {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.tab-pane .primary,
+.tab-pane .secondary {
+    background: url(../img/noise-bg.avif) var(--accent-color);
+}
+
+.tab-pane .primary h4,
+.tab-pane .secondary h4 {
+    color: var(--main-color);
+}
+
+.tab-pane .card {
+    background: url(../img/noise-bg.avif);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    transition: .3s;
+}
+
+.tab-pane .card a.btn{
+    background: var(--main-color);
+}
+
+.tab-pane .card:hover {
+    transform: translateY(-5px);
+}
+
+.tab-pane .card .lang span {
+    background-color: var(--button-color);
+    color: var(--main-color);
+}
+
+footer{
+    background-color: var(--main-color);
+    color: white;
+    font-family: monospace;
+    font-style: italic;
+}
