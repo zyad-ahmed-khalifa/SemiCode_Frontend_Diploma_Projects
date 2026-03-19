@@ -30,7 +30,7 @@ $.ajax({
                                 <h3 class="card-title mb-3 text-center">${obj.name}</h5>
                                 <div class="lang mb-3 d-flex flex-column flex-lg-row">
                                     <p class="me-2 mt-0 mb-1  mb-lg-0">languages: </p>
-                                    <div class="items">
+                                    <div class="items d-flex flex-wrap">
                                         ${langs}
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ $.ajax({
                                 <h3 class="card-title mb-3 text-center">${obj.name}</h5>
                                 <div class="lang mb-3 d-flex flex-column flex-lg-row">
                                     <p class="me-2 mt-0 mb-1  mb-lg-0">languages: </p>
-                                    <div class="items">
+                                    <div class="items d-flex flex-wrap">
                                         ${langs}
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ $.ajax({
                                 <h3 class="card-title mb-3 text-center">${obj.name}</h5>
                                 <div class="lang mb-3 d-flex flex-column flex-lg-row">
                                     <p class="me-2 mt-0 mb-1  mb-lg-0">languages: </p>
-                                    <div class="items">
+                                    <div class="items d-flex flex-wrap">
                                         ${langs}
                                     </div>
                                 </div>
